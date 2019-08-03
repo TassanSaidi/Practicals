@@ -3,11 +3,12 @@
 Python Practical Template
 Keegan Crankshaw
 Readjust this Docstring as follows:
-Names: 
-Student Number: 
-Prac: 
+Names:Tonderai Saidi 
+Student Number: SDXTON001
+Prac: 1
 Date: <03/08/2019>
 """
+
 
 # import Relevant Librares
 import RPi.GPIO as GPIO
