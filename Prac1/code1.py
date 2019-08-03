@@ -31,6 +31,9 @@ outputV= list(itertools.product([0,1],repeat=3))
 
 #definning function that will transverse through the outputV array depending on which button is pressed
 def ledStream(channel):
+	global counter
+	global outputV
+	global chan
 #cheching to see if the up button is pressed
 	if(GPIO.input(7)):
 #counting up
@@ -56,8 +59,8 @@ def ledInterrupt():
 	GPIO.add_event_detect(11,GPIO.RISING, callback=ledStream,bouncetime=300)
 # Logic that you write
 def main():
-   # print("write your logic here")
-
+    #print("write your logic here")
+    f=1
 
 # Only run the functions if 
 if __name__ == "__main__":    
